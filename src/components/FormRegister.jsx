@@ -50,11 +50,12 @@ const FormRegister = () => {
               htmlFor="firstName"
               className=" text-gray-700 font-semibold mb-1"
             >
-              الاسم <span className="text-red-500">*</span>
+              <span className="text-red-500">*</span> الاسم
             </label>
           </div>
 
           <input
+            required
             type="text"
             id="firstName"
             name="firstName"
@@ -78,11 +79,12 @@ const FormRegister = () => {
               htmlFor="lastName"
               className=" text-gray-700 font-semibold mb-1"
             >
-              اللقب <span className="text-red-500">*</span>
+              <span className="text-red-500">*</span> اللقب
             </label>
           </div>
 
           <input
+            required
             type="text"
             id="lastName"
             name="lastName"
@@ -103,11 +105,12 @@ const FormRegister = () => {
               htmlFor="email"
               className=" text-gray-700 font-semibold mb-1"
             >
-              البريد الإلكتروني <span className="text-red-500">*</span>
+              <span className="text-red-500">*</span> البريد الإلكتروني
             </label>
           </div>
 
           <input
+            required
             type="email"
             id="email"
             name="email"
@@ -131,11 +134,12 @@ const FormRegister = () => {
               htmlFor="mobile"
               className=" text-gray-700 font-semibold mb-1"
             >
-              رقم الهاتف <span className="text-red-500">*</span>
+              <span className="text-red-500">*</span> رقم الهاتف
             </label>
           </div>
 
           <input
+            required
             type="text"
             id="mobile"
             name="mobile"
@@ -159,11 +163,12 @@ const FormRegister = () => {
               htmlFor="academicLevel"
               className=" text-gray-700 font-semibold mb-1"
             >
-              المستوى الدراسي <span className="text-red-500">*</span>
+              <span className="text-red-500">*</span> المستوى الدراسي
             </label>
           </div>
 
           <input
+            required
             type="text"
             id="academicLevel"
             name="academicLevel"
@@ -187,11 +192,12 @@ const FormRegister = () => {
               htmlFor="speciality"
               className=" text-gray-700 font-semibold mb-1"
             >
-              التخصص <span className="text-red-500">*</span>
+              <span className="text-red-500">*</span> التخصص
             </label>
           </div>
 
           <input
+            required
             type="text"
             id="speciality"
             name="speciality"
@@ -215,11 +221,12 @@ const FormRegister = () => {
               htmlFor="faculty"
               className=" text-gray-700 font-semibold mb-1"
             >
-              الكلية التي تدرس بها <span className="text-red-500">*</span>
+              <span className="text-red-500">*</span> الكلية التي تدرس بها
             </label>
           </div>
 
           <input
+            required
             type="text"
             id="faculty"
             name="faculty"
@@ -240,11 +247,12 @@ const FormRegister = () => {
               htmlFor="hobby"
               className=" text-gray-700 font-semibold mb-1"
             >
-              الهواية <span className="text-red-500">*</span>
+              <span className="text-red-500">*</span> الهواية
             </label>
           </div>
 
           <input
+            required
             type="text"
             id="hobby"
             name="hobby"
@@ -268,12 +276,13 @@ const FormRegister = () => {
               htmlFor="clubAnswer"
               className="text-gray-700 font-semibold mb-1"
             >
-              ماذا تعرف عن نادي بذرة خير؟{" "}
-              <span className="text-red-500">*</span>
+              <span className="text-red-500">*</span> ماذا تعرف عن نادي بذرة
+              خير؟
             </label>
           </div>
 
           <input
+            required
             type="text"
             id="clubAnswer"
             name="clubAnswer"
